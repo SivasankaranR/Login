@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+}
+.layout{
+    max-width: 1530px;
+    background: linear-gradient(250deg,#f208fd,#7478ed,#04d9dd);
+    height: 100vh;
+    margin: auto;
+}
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100vh;
+}
+.main{
+    background-color: white;
+    height: 550px;
+    width: 450px;
+    border: none;
+    border-radius: 10px;    
+}
+.login{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    padding: 30px;
+}
+.content{
+    margin: 0px 50px 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+form label{
+    font-weight: bold;  
+}
+input[id="Username"]{
+   margin-bottom: 20px;
+   position: relative; 
+}
+input[id="Password"]{
+    margin-bottom: 10px;
+    position: relative; 
+ }
+input{
+    outline: 0;
+    border: none;   
+    border-bottom: 1px solid black; 
+    height: 50px;
+    padding-left: 40px;
+    width: 300px;   
+}
+input:focus{
+    border-color: #f208fd;
+    border-width: 2px;
+}
+.content .icon1{
+    position: absolute;
+    opacity: .7;
+    margin-left: 13px;
+    margin-top: -55px;
+
+}
+.content .icon2{
+    position: absolute;
+    opacity: .7;
+    margin-left: 13px;
+    margin-top: -45px;
+}   
+[placeholder]:focus::-webkit-input-placeholder
+{
+    transition: text-indent 0.6s 0.6s ease;
+    text-indent: -100%;
+    
+}
+[Placeholder]{
+    opacity: .7;
+}
+.fp{
+    text-align: right;    
+}
+.fp a{
+    color: black;
+    text-decoration: none;
+}
+.fp a:hover{
+    text-decoration: underline;
+}
+button{
+    background :linear-gradient(250deg,#f208fd,#7478ed,#04d9dd);
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 350px;
+    margin-top: 30px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+button:hover{
+    font-size: medium;
+    font-weight: bold;
+}
+.sign{
+    text-align: center;
+    margin-top: 20px;
+}
+section[class="icons"]{
+    height: 50px;
+    width: 140px;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+}
+.ic1{
+    height: 40px;
+}
+.container{
+    position: relative;
+}
+.ic2{
+    display: block;
+    height: 38px;
+}
+.subcontainer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+.container:hover .subcontainer{
+    opacity: 1;
+}
+.ic3{
+    height: 38px;
+}
+.ic4{
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: #ed4132
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nac{
+    text-align: center;
+    margin-top: 20px;
+}
+.signup{
+    text-align: center;
+}
+.signup a{
+    text-decoration: none;
+    color: black;
+}
+.signup a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
